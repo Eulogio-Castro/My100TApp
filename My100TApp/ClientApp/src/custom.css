@@ -1,0 +1,279 @@
+/* Provide sufficient contrast against white background */
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+
+.navbar {
+    font-family: 'Permanent Marker';
+    background: black;
+    border-bottom: solid;
+    border-color: #ea3232;
+}
+    .navbar a {
+        text-shadow: 1px -3px 1px #ea3232;
+        color: white;
+    }
+
+        .navbar a:hover {
+            text-shadow: 2px 2px 1px black;
+            color: lightgrey;
+            text-decoration: underline;
+            text-decoration-color: lightgrey;
+        }
+
+.navbar a:focus {
+    text-shadow: 2px 2px 1px black;
+    color: grey;
+
+}
+
+    .navbar .navbar-brand {
+        color: white;
+        transform: rotate(-5deg);
+    }
+
+    .navbar .navbar-toggler {
+        border-color: #ea3232;
+    }
+    .navbar .navbar-toggler .navbar-toggler-icon {
+        background-image: url( "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+
+.navbar-nav {
+    color: #000
+}
+
+code {
+  color: #E01A76;
+}
+
+.container {
+    position: relative;
+}
+
+.leftPadding{
+    position: relative;
+    left: 150px;
+}
+
+.rightPadding {
+    position: relative;
+    right: -200px;
+}
+
+.center{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.underline{
+    text-decoration:underline;
+}
+.textSize36 {
+    font-size: 2em;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.drkBgdThieves{
+    background-color: dimgray;
+    color: darkred;
+}
+
+.blkBgd{
+    background-color:black;
+}
+
+.geoBkg {
+    background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.85) 25%, rgba(0,0,0,0.85) 75%, rgba(0,0,0,0) 100%), url("100T-08evaneckard.jpg") repeat;
+}
+.standingsTable table {
+    background-color: transparent;
+}
+
+.thievesRoster {
+    color: white;
+    border-color: white;
+}
+
+    tbody tr {
+        background-color: black;
+    }
+
+tr th{
+    color:white;
+}
+
+.whiteText{
+    color:white;
+}
+
+
+.rosterImageCell {
+    background: radial-gradient(black 15%, transparent 90%), url("http://static.lolesports.com/teams/1631819887423_100t-2021-worlds.png") no-repeat, black;
+    background-position-y: 50%;
+    background-position-x: 50%;
+    background-size: 100%;
+}
+
+.logoBackground {
+    background: url("http://static.lolesports.com/teams/1631819887423_100t-2021-worlds.png") no-repeat, black;
+    background-position-y: 50%;
+    background-position-x: 50%;
+    background-size: 100%;
+}
+
+.vodTable{
+}
+
+.vodTable tr {
+    border-color: white;
+    border-bottom-width:1px;
+}
+    .vodTable tr td {
+        padding-bottom: 5px;
+        line-height: .5em;
+        font-size: 1em;
+        padding-top: 15px;
+    }
+        .vodTable tr td:nth-child(1) {
+            padding-bottom: 5px;
+           padding-left: 5%;
+        }
+        /*.vodTable tr td:nth-child(2) {
+            padding-bottom: 5px;
+            line-height: .5em;
+            font-size: 1em;
+        }*/
+        .vodTable tr td:nth-child(3) {
+            padding-top: 20px;
+            padding-bottom: 10px;
+            line-height: .5em;
+            font-size: 1em;
+        }
+        /*.vodTable tr td:nth-child(4) {
+            padding-bottom: 5px;
+            line-height: .5em;
+            font-size: 1em;
+        }*/
+    .vodTable tr:last-child{
+        border-color: white;
+        border-bottom-width: 0px;
+    }
+
+tbody tr td p:nth-child(2) {
+    font-family: 'Roboto', sans-serif;
+    font-size: 54px;
+    font-size-adjust: .5;
+    position: absolute;
+    bottom: 80px;
+    right: 40px;
+    color: white;
+    margin: 0;
+}
+tbody tr td p:nth-child(3) {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-size-adjust:.5;
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+    color: #454545;
+    margin: 0;
+}
+tbody tr td p:nth-child(4) {
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    font-size-adjust: .5;
+    position: absolute;
+    right: 50px;
+    bottom:25px;
+    color: red;
+    margin: 0;
+}
+
+.rosterHero span {
+    font-family: Verdana, sans-serif;
+    font-size: 36px;
+    color: #eb3230;
+    position: relative;
+}
+
+
+.rosterHero {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 25px;
+    margin: 0;
+}
+
+.card {
+    width: 14rem;
+    padding: 5px;
+    background: radial-gradient(circle, #eb3230 50%, black 100%);
+    margin: 42px;
+}
+
+
+
+.card .card-body {
+    text-align: center;
+    background: radial-gradient(black 15%, transparent 100%), url("100T-08evaneckard.jpg") no-repeat;
+    background-size: 100%;
+         
+}
+
+.card .card-body .card-title {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Permanent Marker';
+    color: #eb3230;
+}
+
+.ytcard {
+    padding: 2%;
+    margin-block:15%;
+    background: radial-gradient(circle, #eb3230 70%, black 100%);
+    background-size: 100%;
+    max-width: 100%;
+    min-width:200px;
+    aspect-ratio: 16 / 9;
+}
+    .ytcard iframe {
+        height: 100%;
+        width: 100%;
+    }
+
+
+.card .card-body .playerName  {
+    font-size: .8em;
+    text-align: center;
+    color: white;
+}
+
+.card .card-body .playerRole {
+    font-size: 1em;
+    text-align: center;
+    color: #eb3230;
+}
+
+.VODLinkButton {
+    border: 1px solid black;
+    background: darkred;
+    padding:.5em;
+    color: white;
+    border-radius:6px;
+    font-size:.9em;
+    line-height:20px;
+    text-align:center;
+
+}
+    .VODLinkButton:hover {
+        color: whitesmoke;
+    }
